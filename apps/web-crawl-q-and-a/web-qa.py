@@ -21,8 +21,8 @@ from openai.embeddings_utils import distances_from_embeddings, cosine_similarity
 HTTP_URL_PATTERN = r'^http[s]*://.+'
 
 # Define root domain to crawl
-domain = "openai.com"
-full_url = "https://openai.com/"
+domain = "secure.winspark.com"
+full_url = "https://secure.winspark.com/#/lobby?affToken=1&insertInto=&lang=en"
 
 # Create a class to parse the HTML and get the hyperlinks
 class HyperlinkParser(HTMLParser):
